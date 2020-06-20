@@ -1,0 +1,28 @@
+name: furniture_shop
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_icons: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/products/clock.png
+    - assets/products/nancy_chair.png
+    - assets/products/product_one.png
+    - assets/products/product_two.png
+    - assets/products/table_wood_pine.png
+    - assets/products/teapot_with_black_tea.png
